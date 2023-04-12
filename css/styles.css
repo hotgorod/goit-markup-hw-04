@@ -314,7 +314,7 @@ img {
 
 .social-list-link:hover,
 .social-list-link:focus {
-  background-color: var(--green);
+  background-color: var(--active-color);
 }
 
 .social-list-icon {
