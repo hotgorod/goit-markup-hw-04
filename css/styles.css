@@ -15,6 +15,7 @@
   --hairlines: #e7e9fc;
   --green: #31d0aa;
   --subtle-text: #afb1b8;
+  --border: #8e8f99;
 }
 
 body {
@@ -350,16 +351,17 @@ img {
   display: flex;
   width: 168px;
   height: 88px;
-  border: 1px solid var(--subtle-text);
+  border: 1px solid var(--border);
   border-radius: 4px;
   justify-content: center;
   align-items: center;
-  color: ;
+  color: var(--subtle-text);
 }
 
 .customers-link:hover,
 .customers-link:focus {
   border: 1px solid var(--active-color);
+  color: #404bbf;
 }
 
 .customers-icon:hover,
@@ -368,7 +370,7 @@ img {
 }
 
 .customers-icon {
-  fill: var(--subtle-text);
+  fill: currentColor;
 }
 
 .footer {
