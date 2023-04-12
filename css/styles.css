@@ -493,6 +493,7 @@ img {
 }
 
 .gallery .link {
+  display: block;
   color: var(--title-text-color);
   font-style: normal;
   font-weight: 500;
