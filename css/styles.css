@@ -412,7 +412,19 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-white-color);
+  margin-top: 0;
   margin-bottom: 16px;
+}
+
+.common-footer {
+  display: flex;
+  gap: 120px;
+}
+
+.social-list-footer {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
 }
 
 .section-portfolio {
