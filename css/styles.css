@@ -220,38 +220,15 @@ img {
   width: calc((100% - 72px) / 4);
 }
 
-/* .feature-list .item::before {
-  display: block;
-  content: "";
+.feature-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 112px;
-
-  border-radius: 4px;
-
-  background-repeat: no-repeat;
-  background-position: center;
   background-color: var(--secondary-white-color);
+  border-radius: 4px;
   margin-bottom: 8px;
-} */
-
-/* .icon-antenna::before {
-  background-image: url(../images/svg/antenna.svg);
-} */
-
-.icon-clock::before {
-  background-image: url(../images/svg/clock.svg);
 }
-
-.icon-diagram::before {
-  background-image: url(../images/svg/diagram.svg);
-}
-
-.icon-astronaut::before {
-  background-image: url(../images/svg/astronaut.svg);
-}
-
-/* .feature-list .item:first-child {
-  margin-left: 0;
-} */
 
 .feature-list .text {
   margin-top: 0;
@@ -419,6 +396,7 @@ img {
 .common-footer {
   display: flex;
   gap: 120px;
+  align-items: baseline;
 }
 
 .social-list-footer {
