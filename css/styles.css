@@ -372,7 +372,7 @@ img {
 .footer .text {
   width: 264px;
   color: var(--secondary-white-color);
-
+  margin-top: 0;
   margin-bottom: 0;
   font-size: 16px;
   line-height: 1.5;
@@ -418,8 +418,6 @@ img {
 .section-portfolio {
   padding-top: 96px;
   padding-bottom: 96px;
-  padding-left: 120px;
-  padding-right: 120px;
 }
 
 .portfolio {
